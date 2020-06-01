@@ -10,7 +10,7 @@ client.once('ready', () => {
 	console.log('MoisesBot 1.2.1 pronto para o serviço!');
 });
 
-client.login('NzA1NjE4MjIwODc0NDY1MzMx.XtGvvQ.GyqQkEN9aGZ842C7sAjEJGUU7DE');
+client.login('');
 
 client.on('message', message => {
 	console.log(`${message.author} : ${message.content}`);
